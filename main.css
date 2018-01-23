@@ -1,0 +1,63 @@
+body{
+    background: #e6caff;
+}
+
+
+.background {
+
+    width: 100%;
+    background: #e6caff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 14px;
+    font: normal 15px "sans-serif";
+    max-width: 1200px;
+
+
+}
+
+.left-column{
+    width: 68%;
+    background: #ffffff;
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+
+}
+
+
+.right-column{
+    width: 30%;
+    background: white;
+    display: inline-block;
+    float: right;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+.row{
+    width: 95%;
+    border-top: 1px solid #e6caff;
+}
+
+.input{
+    float: left;
+}
+
+.add-button{
+    background: #4a49ff;
+    color: white;
+    font: 20px "sans-serif";
+    width: 16%;
+    float: right;
+    height: 40px;
+
+
+}
