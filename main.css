@@ -1,18 +1,18 @@
 body{
-    background: #e6caff;
+    background: #cdcbcb;
 }
 
 
 .background {
 
     width: 100%;
-    background: #e6caff;
+    background: #cdcbcb;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
     padding: 20px;
     font-size: 14px;
-    font: normal 15px "sans-serif";
+    font: normal 15px "Calibri";
     max-width: 1200px;
 
 
@@ -22,7 +22,6 @@ body{
     width: 68%;
     background: #ffffff;
     display: inline-block;
-    float: left;
     margin-bottom: 20px;
     margin-right: 10px;
     border-radius: 5px;
@@ -43,21 +42,188 @@ body{
 }
 
 .row{
-    width: 95%;
-    border-top: 1px solid #e6caff;
+    width: 97%;
+    border-top: 1px solid #cdcbcb;
 }
 
 .input{
     float: left;
 }
 
+.product{
+    width: 40%;
+    height: auto;
+    align-items: center;
+    text-align: left;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.name{
+    width: 39%;
+    height: auto;
+    display: inline-block;
+}
+
+.number{
+    width: 40%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.buttons{
+    width: 18%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.row{
+    padding: 15px;
+    vertical-align: middle;
+}
+
+
+
 .add-button{
-    background: #4a49ff;
+    background: #559fff;
     color: white;
-    font: 20px "sans-serif";
-    width: 16%;
+    font: 22px "Calibri";
+    width: 19.4%;
     float: right;
-    height: 40px;
+    height: 38px;
+    outline: none;
+    padding-left: 0;
+    margin-left: 0;
+    border-left: 0;
+    border: solid;
+    border-width: 0;
+    border-color: #4173bb;
+    border-bottom-width: 3px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 
 
+
+}
+
+.minus{
+    color: white;
+    background: #c8918e;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    border: solid;
+    border-width: 0;
+    border-bottom-width: 2px;
+    border-color: #88625b;
+
+}
+
+.plus{
+    color: white;
+    background: #44823d;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    border: solid;
+    border-width: 0;
+    border-bottom-width: 2px;
+    border-color: #265626;
+}
+
+.number{
+    background-color: #cdcbcb;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.b-bought{
+    height: 36px;
+    width: 80px;
+    outline: none;
+    background-color: #cdcbcb;
+    border-radius: 5px;
+    border: solid;
+    border-width: 0;
+    border-color: #817f7f;
+    border-bottom-width: 3px;
+}
+
+.b-nebought{
+    display: inline-block;
+    background-color: #cdcbcb;
+    height: 36px;
+    width: 90px;
+    outline: none;
+    border-radius: 5px;
+    border: solid;
+    border-color: #8b8989;
+    border-width: 0;
+    border-bottom-width: 3px;
+}
+
+.b-remove{
+    background-color: #c81004;
+    color: white;
+    height: 36px;
+    width: 36px;
+    outline: none;
+    border-radius: 5px;
+    border: solid;
+    border-width: 0;
+    border-bottom-width: 3px;
+    border-color: #880000;
+
+}
+
+.title{
+    font: bold 20px "Calibri";
+    padding: 10px;
+    border-top: 1px solid #cdcbcb;
+}
+
+.title-left{
+    font: bold 20px "Calibri";
+    padding: 10px;
+    border-top: 1px solid #cdcbcb;
+}
+
+.title-bought{
+    font: bold 20px "Calibri";
+    padding: 10px;
+    border-top: 1px solid #cdcbcb;
+}
+
+.left{
+    display: inline-block;
+    font: normal 14px "Calibri";
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+    background-color: #cdcbcb;
+    border-radius: 5px;
+}
+
+.what-left{
+    text-align: left;
+    display: inline-block;
+}
+
+.number-left{
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+}
+
+input{
+    width: 80%;
+    height: 32px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
